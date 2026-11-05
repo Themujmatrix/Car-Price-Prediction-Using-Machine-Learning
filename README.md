@@ -37,7 +37,7 @@ All values below are from the notebook's saved test results, rounded for readabi
 | Lasso Regression | 0.9923 | 0.5606 | 1,752,029 |
 | Linear Regression | 0.9925 | 0.0781 | 2,537,855 |
 
-![R² score comparison for eight regression models](Images/r2_comparison.png)
+![R² score comparison for eight regression models](https://github.com/Themujmatrix/Car-Price-Prediction-Using-Machine-Learning/blob/main/Images/R2.png)
 
 **Interpretation:** Gradient Boosting achieved the best test-set R² and lowest test RMSE in this saved experiment. R² is a **regression goodness-of-fit score, not classification accuracy**. Higher test R² and lower test RMSE indicate better performance on this test split. The price currency is **not specified in the source CSV**, so errors are reported in *dataset price units*.
 

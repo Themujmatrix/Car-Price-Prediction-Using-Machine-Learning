@@ -1,8 +1,15 @@
 # Used Car Price Prediction Using Machine Learning
-
+![Car Price Prediction Banner](Images/project_banner.png)
 **End-to-end car price regression project with exploratory data analysis, feature engineering, reusable scikit-learn pipelines, eight regression algorithms, and model evaluation.**
 
 `Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Seaborn` · `Jupyter Notebook`
+<h2 align="center">Machine Learning Workflow</h2>
+
+<p align="center">
+  <img src="Images/project_workflow.png"
+       alt="Machine Learning Workflow"
+       width="850">
+</p>
 
 ## Overview
 
@@ -40,6 +47,8 @@ All values below are from the notebook's saved test results, rounded for readabi
 ![R² score comparison for eight regression models](Images/R2.png)
 
 **Interpretation:** Gradient Boosting achieved the best test-set R² and lowest test RMSE in this saved experiment. R² is a **regression goodness-of-fit score, not classification accuracy**. Higher test R² and lower test RMSE indicate better performance on this test split. The price currency is **not specified in the source CSV**, so errors are reported in *dataset price units*.
+## R<sup>2</sup> Train & R<sup>2</sup> Test 
+![Regression Model Comparison](Images/model_comparison.png)
 
 ### Actual vs. predicted prices
 

@@ -37,13 +37,13 @@ All values below are from the notebook's saved test results, rounded for readabi
 | Lasso Regression | 0.9923 | 0.5606 | 1,752,029 |
 | Linear Regression | 0.9925 | 0.0781 | 2,537,855 |
 
-![R² score comparison for eight regression models](images/r2_comparison.png)
+![R² score comparison for eight regression models](Images/r2_comparison.png)
 
 **Interpretation:** Gradient Boosting achieved the best test-set R² and lowest test RMSE in this saved experiment. R² is a **regression goodness-of-fit score, not classification accuracy**. Higher test R² and lower test RMSE indicate better performance on this test split. The price currency is **not specified in the source CSV**, so errors are reported in *dataset price units*.
 
 ### Actual vs. predicted prices
 
-![Actual vs predicted prices for all eight models](images/actual_vs_predicted_models.png)
+![Actual vs predicted prices for all eight models](Images/actual_vs_predicted.png)
 
 Each subplot compares observed car prices (horizontal axis) against predicted prices (vertical axis). The dashed red diagonal indicates perfect predictions. Points farther from the line have larger prediction errors.
 
@@ -70,15 +70,15 @@ The notebook examines dataset dimensions, summary statistics, datatypes, missing
 
 **Price distribution** (up to the 99th percentile, for readability):
 
-![Used car price distribution](images/price_distribution.png)
+![Used car price distribution](Images/price_distribution.png)
 
 | Manufacturing year vs. price | Kilometers driven vs. price |
 | --- | --- |
-| ![Manufacturing year versus price](images/year_vs_price.png) | ![Kilometers driven versus price](images/kilometer_vs_price.png) |
+| ![Manufacturing year versus price](Images/year_vs_price.png) | ![Kilometers driven versus price](Images/kilometer_vs_price.png) |
 
 | Median price by transmission | Correlation of numerical columns |
 | --- | --- |
-| ![Median price by transmission](images/price_by_transmission.png) | ![Correlation matrix](images/numeric_correlation_heatmap.png) |
+| ![Median price by transmission](Images/price_by_transmission.png) | ![Correlation matrix](Images/numeric_correlation_heatmap.png) |
 
 ## Feature engineering and preprocessing
 
